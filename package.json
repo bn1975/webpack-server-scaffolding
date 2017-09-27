@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
-    "build": "cleanjs -o public/js/bundle.js public/js/*.js",
-    "clean": "rm /public/js/bundle.js"
+    "build": "node_modules/.bin/webpack",
+    "clean": "rm ./public/js/bundle.js"
   },
   "keywords": [],
   "author": "",
